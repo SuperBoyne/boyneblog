@@ -10,6 +10,12 @@
         overflow: hidden;
       }
     </style>
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://blog.boyne.dev" />
+<meta property="og:image" content="https://boyne.dev/img/logo.png" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta name="theme-color" content="#FFFFFF">
     <link rel="icon" 
       type="image/png" 
       href="https://boyne.dev/img/logo.png">
